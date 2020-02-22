@@ -1,0 +1,74 @@
+#############################################################################
+#                                                                           #
+#                        MATPLOTLIB RC FILE                                 #
+#                                                                           #
+#############################################################################
+
+# This file contains the standard settings we want to have by default in matplotlib.
+
+#####################
+#   LINES           #
+#####################
+
+lines.linewidth   : 2.0         # line width in points (default 1.5)
+
+
+#####################
+#   FONT            #
+#####################
+
+font.size           : 12.0
+
+
+#####################
+#   AXES            #
+#####################
+
+axes.titlesize      : 20.0      # fontsize of the axes title
+#axes.titlepad       : 6.0      # pad between axes and title in points
+axes.labelsize      : 15.0      # fontsize of the x any y labels
+#axes.labelpad       : 4.0      # space between label and axis
+
+
+#####################
+#   TICKS           #
+#####################
+
+xtick.labelsize      : 12.0     # fontsize of the tick labels
+ytick.labelsize      : 12.0     # fontsize of the tick labels
+
+
+#####################
+#   FIGURE          #
+#####################
+
+figure.titlesize    : 12.0      # size of the figure title (Figure.suptitle())
+figure.figsize      : 8.0, 6.0  # figure size in inches (default 6.4, 4.8)
+
+
+#####################
+#   ERROR BARS      #
+#####################
+
+#errorbar.capsize    : 0.0      # length of end cap on error bars in pixels
+
+
+#####################
+#   SAVING FIGURES  #
+#####################
+
+savefig.dpi         : 300       # figure dots per inch or 'figure'
+#savefig.facecolor   : white    # figure facecolor when saving
+#savefig.edgecolor   : white    # figure edgecolor when saving
+#savefig.format      : png      # png, ps, pdf, svg
+savefig.bbox        : tight     # 'tight' or 'standard'.
+                                # 'tight' is incompatible with pipe-based animation
+                                # backends but will workd with temporary file based ones:
+                                # e.g. setting animation.writer to ffmpeg will not work,
+                                # use ffmpeg_file instead
+#savefig.pad_inches  : 0.1      # Padding to be used when bbox is set to 'tight'
+#savefig.transparent : False    # setting that controls whether figures are saved with a
+                                # transparent background by default
+
+
+
