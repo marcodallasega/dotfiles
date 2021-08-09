@@ -1,8 +1,0 @@
-# Below are listed the basic python packages required for science-related projects.
-# Use this file to install the listed packages with the command:  pip3 install -r requirements.txt
-numpy
-matplotlib
-jupyterlab
-scikit-learn
-pandas
-scipy
