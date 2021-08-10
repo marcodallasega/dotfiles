@@ -2,21 +2,21 @@
 "           VIMRC FILE
 " ==================================================================
 
-" =============== VUNDLE - BEGIN ====================
-filetype off    " required (what does it mean/do?)
-set rtp+=~/.vim/bundle/Vundle.vim   " set the runtime path to include Vundle and initialize
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'   " let Vundle manage Vundle (required)
-Plugin 'SirVer/ultisnips'       " snippets engine
-Plugin 'honza/vim-snippets'     " collection of default snippets for different languages
-" Set global configuration for the snippets trigger. (Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe)
-let g:UltiSnipsExpandTrigger="<tab>"        " use TAB to trigger a snippets
-let g:UltiSnipsListSnippets="<c-l>"         " use CTRL-l to list the snippets available
-let g:UltiSnipsJumpForwardTrigger="<c-j>"
-let g:UltiSnipsJumpBackwardTrigger="<c-k>"
-let g:UltiSnipsEditSplit="vertical"         " If you want :UltiSnipsEdit to split your window
-call vundle#end()
-" =============== VUNDLE - END ====================
+"" =============== VUNDLE - BEGIN ====================
+"filetype off    " required (what does it mean/do?)
+"set rtp+=~/.vim/bundle/Vundle.vim   " set the runtime path to include Vundle and initialize
+"call vundle#begin()
+"Plugin 'VundleVim/Vundle.vim'   " let Vundle manage Vundle (required)
+"Plugin 'SirVer/ultisnips'       " snippets engine
+"Plugin 'honza/vim-snippets'     " collection of default snippets for different languages
+"" Set global configuration for the snippets trigger. (Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe)
+"let g:UltiSnipsExpandTrigger="<tab>"        " use TAB to trigger a snippets
+"let g:UltiSnipsListSnippets="<c-l>"         " use CTRL-l to list the snippets available
+"let g:UltiSnipsJumpForwardTrigger="<c-j>"
+"let g:UltiSnipsJumpBackwardTrigger="<c-k>"
+"let g:UltiSnipsEditSplit="vertical"         " If you want :UltiSnipsEdit to split your window
+"call vundle#end()
+"" =============== VUNDLE - END ====================
 
 set nocompatible
 set number numberwidth=4
