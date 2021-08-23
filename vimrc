@@ -22,7 +22,7 @@ set nocompatible
 set number numberwidth=4
 set cursorline      " highlight cursor line
 syntax enable
-colorscheme molokai
+colorscheme jellybeans
 set spell   " spell check (use it with ]-s and [-s , ie previous or next spell error)
 " Indentation options
 set autoindent
