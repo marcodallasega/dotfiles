@@ -1,0 +1,12 @@
+# This is a file listing the main python packages useful for science programming.
+# To create the python environment use: conda env create -f NAME_OF_THIS_FILE
+name: science    # name of the environment
+dependencies:
+- numpy
+- pandas
+- matplotlib
+- jupyterlab
+- notebook
+- scipy
+- scikit-learn
+- seaborn
